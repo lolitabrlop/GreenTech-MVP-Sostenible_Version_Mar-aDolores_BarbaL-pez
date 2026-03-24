@@ -8,16 +8,16 @@
   
   <style>
     :root {
-      --primary: #28a745;
-      --dark: #212529;
-      --text-light: #f4fdf4;
+      primary: #28a745;
+      dark: #212529;
+      text-light: #f4fdf4;
     }
 
     body {
       font-family: system-ui, -apple-system, sans-serif;
-      background-color: var(--text-light);
+      background-color: var(text-light);
       margin: 0;
-      color: var(--dark);
+      color: var(dark);
     }
 
     .hero {
@@ -45,7 +45,7 @@
       display: inline-flex;
       align-items: center;
       gap: 10px;
-      background-color: var(--primary);
+      background-color: var(primary);
       color: white;
       padding: 12px 35px;
       font-size: 1.25rem;
@@ -63,7 +63,7 @@
     footer {
       text-align: center;
       padding: 1.5rem;
-      background: var(--dark);
+      background: var(dark);
       color: white;
     }
   </style>
@@ -85,9 +85,5 @@
   <footer id="footer">
     GreenTech Solutions &copy; <span id="year"></span> - Infraestructura de baja huella.
   </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
